@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wtc"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+   
+    <Button
+        android:id="@+id/toko2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#376db7"
+        android:onClick="Kliktoko2"
+        android:text="LEXUSION"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toko1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#376db7"
+        android:onClick="Kliktoko1"
+        android:text="TOKO S dan H"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toko3"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#376db7"
+        android:onClick="Kliktoko3"
+        android:text="AVIB"
+        android:textStyle="bold" />
+
+</LinearLayout>
